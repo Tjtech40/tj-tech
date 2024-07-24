@@ -1,0 +1,44 @@
+/*Setting the image to sretch to its full width and hieght*/
+img{
+    height: auto;
+    max-width: 100%;
+}
+/*Fomatting the background image to cover the whole body */
+body{
+    background-image: url("imgs/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment:scroll;
+    background-color: rgb(15, 4, 121);   
+}
+/*Removing the bullets type in unodered listing and Setting the background color to dark*/
+ul{
+    list-style-type: none;
+    /*setting distance between the lists*/
+    padding: auto ;
+    
+     /*Set background color to gray */
+    background-color: rgba(118, 111, 182, 0.137);
+}
+li{
+     /*making the lists to appear horizontal*/
+     display: inline;
+     /*Seperate the menu with a slight distance*/
+     padding :0.5%;   
+}
+a{
+    /*Set the text decoration to be none to remove the line under links*/
+    text-decoration: none;
+    /* Add weight to its text by bolding it*/
+    font-weight: bold;
+}
+a:hover{
+    /*When the you place a cuser on the menus the following to hapen*/
+    background-color: rgba(96, 143, 231, 0.267);
+    font-size: large;
+    color: rgba(231, 12, 12, 0.932);
+}
+a:visited{
+    /*When the link is visited */
+    color: blueviolet;
+}
