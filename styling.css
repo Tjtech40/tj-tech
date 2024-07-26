@@ -9,47 +9,54 @@ body{
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
     background-attachment:scroll;
-    background-color: rgb(15, 4, 121);   
+    background-color: rgb(15, 4, 121);  
+    
 }
 /*Removing the bullets type in unodered listing and Setting the background color to dark*/
 ul{
-    list-style-type: none;
-    /*setting distance between the lists*/
-    padding: auto ;
-    max-width: 100%;
-    
+    list-style-type: none; 
      /*Set background color to gray */
     background-color: rgba(118, 111, 182, 0.137);
+    /*font size*/
+    font-size: 2vw;
+
 }
 li{
      /*making the lists to appear horizontal*/
      display: inline;
-     /*Seperate the menu with a slight distance*/
-     padding :0.5%;   
+     padding: 3px;
+     
+     
 }
 a{
     /*Set the text decoration to be none to remove the line under links*/
     text-decoration: none;
     /* Add weight to its text by bolding it*/
-    font-weight: bold;
+    color: blue;
+    text-align: center;
 }
 a:hover{
     /*When the you place a cuser on the menus the following to hapen*/
-    background-color: rgba(96, 143, 231, 0.267);
-    font-size: large;
-    color: rgba(231, 12, 12, 0.932);
+    
+    background-color: rgba(0, 255, 255, 0.336);
 }
-a:visited{
-    /*When the link is visited */
-    color: blueviolet;
+#hh1{
+    font-size: 3vw;
+    background-color: rgba(76, 178, 224, 0.329);
 }
 section{
+    width: 100%;
+    height: auto;
     background-color: rgba(0, 0, 255, 0.048);
 }
-#card1{
-    align-content: center;
-    z-index: 1;
+#printer{
+    max-width: 100%;
+    padding-left: 2px;
 }
+/*FOMATTING HOME PAGE*/
+/*Making the laptop image to rotate*/
+
+
 /*FOMATTING THE SERVICES PAGE*/
 /*Making the display of the service section to be grid*/
 section{
@@ -59,18 +66,33 @@ section{
 }
 .Services{
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto;
+    grid-template-rows: auto auto auto;
+    
     
 }
 
 #card1 {
     display:grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 20% 40% 40% ;
     text-align: left;
     color: rgb(10, 9, 9);
-    background-color: rgba(100, 148, 237, 0.705);
+    background-color: rgba(203, 199, 206, 0.486);
+    padding: 2px;
 }
+#h2{
+    font-size: 2vw;
+    color: darkgreen;
+    text-align: center;
+}
+span{
+    color: rgb(255, 0, 0);
+}
+#p{
+    text-align: center;
+    font-size: 1.5vw;
+    
+}
+
 #card2{
 background-color: beige;
 
