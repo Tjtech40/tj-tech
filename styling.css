@@ -16,6 +16,7 @@ ul{
     list-style-type: none;
     /*setting distance between the lists*/
     padding: auto ;
+    max-width: 100%;
     
      /*Set background color to gray */
     background-color: rgba(118, 111, 182, 0.137);
@@ -41,4 +42,41 @@ a:hover{
 a:visited{
     /*When the link is visited */
     color: blueviolet;
+}
+section{
+    background-color: rgba(0, 0, 255, 0.048);
+}
+#card1{
+    align-content: center;
+    z-index: 1;
+}
+/*FOMATTING THE SERVICES PAGE*/
+/*Making the display of the service section to be grid*/
+section{
+    text-align: center;
+    max-width: 100%;
+    background-color: rgba(255, 255, 255, 0.123);
+}
+.Services{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    
+}
+
+#card1 {
+    display:grid;
+    grid-template-columns: auto auto;
+    text-align: left;
+    color: rgb(10, 9, 9);
+    background-color: rgba(100, 148, 237, 0.705);
+}
+#card2{
+background-color: beige;
+
+}
+#card3{
+    background-color: aqua;
+    
+
 }
