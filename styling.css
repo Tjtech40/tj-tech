@@ -18,7 +18,7 @@ ul{
      /*Set background color to gray */
     background-color: rgba(118, 111, 182, 0.137);
     /*font size*/
-    font-size: 2vw;
+    font-size: 18px;
 
 }
 li{
@@ -41,7 +41,7 @@ a:hover{
     background-color: rgba(0, 255, 255, 0.336);
 }
 #hh1{
-    font-size: 3vw;
+    font-size: 25px;
     background-color: rgba(76, 178, 224, 0.329);
 }
 section{
@@ -55,7 +55,18 @@ section{
 }
 /*FOMATTING HOME PAGE*/
 /*Making the laptop image to rotate*/
-
+#Img22{
+    max-width: 100%;
+}
+#div2{
+    background-color: aqua;
+    border-radius: 50px;
+}
+#div3{
+    align-self: self-end;
+    border: 2px black;
+    background-color: aliceblue;
+}
 
 /*FOMATTING THE SERVICES PAGE*/
 /*Making the display of the service section to be grid*/
@@ -65,8 +76,7 @@ section{
     background-color: rgba(255, 255, 255, 0.123);
 }
 .Services{
-    display: grid;
-    grid-template-rows: auto auto auto;
+   
     
     
 }
@@ -80,7 +90,7 @@ section{
     padding: 2px;
 }
 #h2{
-    font-size: 2vw;
+    font-size: 20px;
     color: darkgreen;
     text-align: center;
 }
@@ -88,8 +98,8 @@ span{
     color: rgb(255, 0, 0);
 }
 #p{
-    text-align: center;
-    font-size: 1.5vw;
+    text-align: justify;
+    font-size: 15p;
     
 }
 
@@ -101,4 +111,41 @@ background-color: beige;
     background-color: aqua;
     
 
+}
+/*FOMATTING ABOUT US PAGE*/
+#About-Us{
+    margin: 2%;
+    padding: 1%;
+    align-items: center;
+}
+/* PRODUCT PAGE*/
+/* Puchase button*/
+#goods{
+    background-color: red;
+    border-radius: 5px;
+}
+/*Body Section*/
+
+#prdt{
+width: 100%;   
+}
+/* rows*/
+#row{
+
+}
+/*Columns*/
+#data{
+}
+/*Images*/
+#img{
+    width: 30%;
+    border-radius: 10px;
+}
+/*Table*/
+#Tproduct{
+    width: 80%;
+    margin: 5%;
+}
+#img :hover{
+    width: 60%;
 }
